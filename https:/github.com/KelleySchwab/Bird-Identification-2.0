@@ -1,0 +1,6 @@
+!pip install azure-cognitiveservices-vision-customvision
+from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
+from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateEntry
+from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateBatch
+from msrest.authentication import ApiKeyCredentials 
+import numpy as np
